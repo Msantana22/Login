@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleLogin.css">
+    <script src="https://kit.fontawesome.com/dfacc3db1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form name="document" action="" method="post">
+        <h3>LOGIN</h3>
+
+        <img class="email" id="imgemail"src="envelope-solid.svg">
+        <input type="email" id="email" placeholder="Digite seu e-mail" name=""required="">
+
+      <div>
+        <img class="senha" src="lock-solid.svg">
+    
+        <img class="eye" id="olho" title="Exibir senha" onclick="Exibirsenha()" src="eye-solid.svg">
+        <img class="eye-block" title="Ocultar senha" id="senha-block" src="eye-slash.svg">
+
+        <input type="password" maxlength="50" id="senha"  placeholder="Digite sua senha" name="" required="">
+      </div>
+     
+        <br>
+        <br>
+        <input type="submit" name="acao" value="Entrar">
+        <p>Não tem uma conta ? <spam>Cadastre-se</spam></p>
+        <br>
+        <br>
+        <br>
+    </form>
+    <footer>
+        <i class="fa-brands fa-github"></i>
+        Exemplo de Login feito com <spam id="red">html, css e JavaScript.</spam>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
