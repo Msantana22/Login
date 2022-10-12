@@ -3,20 +3,20 @@
 let email = document.getElementById('email');
 
 email.addEventListener('focus',()=>{
-    email.style.borderColor = 'Orange';
+    email.style.borderColor = '#4f46e5';
 });
 
 email.addEventListener('blur',()=>{
-email.style.borderColor = '#ccc';
+email.style.borderColor = 'transparent';
 });
 
 let senha = document.getElementById('senha');
 senha.addEventListener('focus',()=>{
-    senha.style.borderColor = 'orange';
+    senha.style.borderColor = '#4f46e5';
 });
 
 senha.addEventListener('blur',()=>{
-senha.style.borderColor = '#ccc';
+senha.style.borderColor = 'trasnparent';
 });
 
  
