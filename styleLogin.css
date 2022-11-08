@@ -19,11 +19,11 @@ form{
     border: 0;
     border-radius: 25px 0px 25px 0px;
     padding: 20px;
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 50%;
     display: block;
-    transform: translate( -50%, 80%);
+    transform: translate( -50%, -50%);
     box-shadow:  22px 22px 98px #086191,
     -22px -22px 100px #075a86;
 }
@@ -149,7 +149,7 @@ form input[type=submit]:hover{
 footer{
     font-size: 16px;
     color: black;
-    top: 940px;
+    top: 98%;
     left: 49%;
     transform: translate(-50%, -50%);
     position:absolute;
